@@ -7,7 +7,7 @@ st.set_page_config(page_title="🤖 AI Chatbots", page_icon="🤖", layout="cent
 # --- Common API setup ---
 API_URL = "https://router.huggingface.co/v1/chat/completions"
 headers = {
-    "Authorization": "Bearer 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",  # Ideally, move to st.secrets!
+    "Authorization": "Bearer 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",  # Ideally, move to st.secrets!
 }
 
 def query(payload):
@@ -123,3 +123,4 @@ elif chatbot_choice == "Hugging Face Chatbot":
     st.markdown("---")
     st.markdown("### Conversation (Hugging Face):")
     display_hf_chat()
+
